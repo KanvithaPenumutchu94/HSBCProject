@@ -1,0 +1,209 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-04T11:54:45.518Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3827810200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-feature;login-with-valid-credentials",
+        "after": [
+          {
+            "output": [
+              "Login with valid credentials is completed"
+            ],
+            "result": {
+              "duration": 732669100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 501764500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinations.LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 323305800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters Email address \"nagalakshmi.s@TestPerform.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nagalakshmi.s@TestPerform.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinations.LoginPageSteps.user_enters_email_address(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172698900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Password \"How2trainurdr@gon2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"How2trainurdr@gon2\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinations.LoginPageSteps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72004100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Signin button",
+            "match": {
+              "location": "stepDefinations.LoginPageSteps.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1016571200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see Eco-System Management Portal",
+            "match": {
+              "location": "stepDefinations.LoginPageSteps.user_should_see_eco_system_management_portal()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-04T11:54:52.177Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2987578000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Vaidate HSBC home page title",
+        "description": "",
+        "id": "login-feature;vaidate-hsbc-home-page-title",
+        "after": [
+          {
+            "output": [
+              "Vaidate HSBC home page title is completed"
+            ],
+            "result": {
+              "duration": 658255400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 709958200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinations.LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26136800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "title should be \"HSBC - SSAP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HSBC - SSAP\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.LoginPageSteps.title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginPage1.feature",
+    "tags": []
+  }
+]
